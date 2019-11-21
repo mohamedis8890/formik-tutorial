@@ -5,11 +5,11 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "formik": "0.10.4",
+    "formik": "2.0.4",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1",
-    "yup": "0.23.0"
+    "yup": "0.27.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"

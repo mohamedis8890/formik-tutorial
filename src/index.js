@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { withFormik, Form, Field } from "formik";
-import Yup from "yup";
+import * as Yup from "yup";
 
 import "./styles.css";
 
@@ -32,7 +32,9 @@ function App({ values, errors, touched, isSubmitting }) {
           <option value="premium">Premium</option>
         </Field>
       </div>
-      <button disabled={isSubmitting}>Submit</button>
+      <button type="submit" disabled={isSubmitting}>
+        Submit
+      </button>
     </Form>
   );
 }
